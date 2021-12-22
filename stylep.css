@@ -1,0 +1,32 @@
+body{
+    background: url('img/imagemcpp.jpg') center / cover no-repeat;
+    margin: 10px;
+}
+
+.first-box{
+    background-color: rgb(112, 80, 145);
+    opacity: 0.9;
+    display: block;
+    height: 1000px;
+    width: auto;
+}
+
+.secound-box h1{
+    font-size: 56px;
+    font-family: monospace;
+    color: rgb(36, 2, 36);
+    text-align: center;
+    padding: 5px ;
+}
+
+.secound-box h3{
+    font-size: 20px;
+    font-family: monospace;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: -1px;
+}
+
+.secound-box h3:hover{
+    color: white;
+}
