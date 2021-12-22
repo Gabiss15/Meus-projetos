@@ -141,8 +141,17 @@ body{
 }
 
 .box-form{
-    background-color: purple;
-    text-align: center;
+    background-color: rgb(151, 14, 151);
+    font-family:monospace;
+    font-weight: bolder;
+    text-align:center;
+    padding: 10px;
+    position: relative;
+    top: 250px;
+}
+.box-form h4{
+    font-size: 20px;
+    font-weight: bolder;
 }
 .box-four{
     background-color: white;
