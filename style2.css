@@ -139,6 +139,11 @@ body{
 .box-three{
     animation: bthreeAnim 0.5s forwards;
 }
+
+.box-form{
+    background-color: purple;
+    text-align: center;
+}
 .box-four{
     background-color: white;
     width: auto;
