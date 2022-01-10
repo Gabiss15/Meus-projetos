@@ -27,6 +27,6 @@ body{
     margin-bottom: -1px;
 }
 
-.secound-box h3:hover{
+.secound-box a:hover{
     color: white;
 }

@@ -97,9 +97,19 @@ body{
 .secound-box h1{
     font-size: 56px;
     font-family: monospace;
-    color: red;
+    color: rgb(36, 2, 36);
     text-align: center;
     padding: 5px ;
+}
+header{
+    font-size: 20px;
+    font-family: monospace;
+    text-align: right;
+    margin-right: 50px;
+}
+
+header a:hover{
+    color: aliceblue;
 }
 .secound-box img{
     width: 159px;
@@ -144,10 +154,13 @@ body{
     background-color: rgb(151, 14, 151);
     font-family:monospace;
     font-weight: bolder;
-    text-align:center;
+    text-align: center;
     padding: 10px;
     position: relative;
-    top: 250px;
+    top: 100px;
+}
+.box-form input{
+    text-align: justify;
 }
 .box-form h4{
     font-size: 20px;
