@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Raquel</title>
 
-    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/html" href="projects.html">
 </head>
 <body>   
@@ -14,44 +14,36 @@
         <div class="secound-box">
             <h1> Portfólio</h1><hr>
             <header>
-                <h4> <a href="#botton"> CONTATOS </a> </h4>
                 <h4> <a href="projects.html"> PROJETOS </a> </h4>
             </header>
-            <p> <img src="img/imagempessoal.jpeg" alt="Foto pessoal"/> Olá, visitante. Me chamo Raquel Gabrielly,</br> tenho 16 anos e curso o 2º ano do ensino médio e </br> técnico em informática no IFRN  </p> </hr>
+            <p> <img src="img/imagempessoal.jpeg" alt="Foto pessoal"/> Olá, visitante. Me chamo Raquel Gabrielly,</br> tenho 16 anos e curso o 2º ano do ensino médio e </br> técnico em informática no IFRN.  </p> </hr>
         </div>
         <div class="box-three">
             <p> Tenho experiências na linguagem de programação C++ </br> e iniciando em HTML5, CSS3, Python e Javascript.</p>
         </div>
         <div class="box-form">
-            <h4> Dúvidas? Deixe seus dados que entrarei em contato</h4>
-            <form action=""> 
-                <p> Seu e-mail:
-                    <input type="email" name="username"/>
-                    <input type="submit" name="subscribe" value="enviar"/>
-                </p>
-            </form>
-            <form action="">
-                <p> Seu nome:
-                    <input type="text" name="name"/>
-                    <input type="submit" name="subscribe" value="enviar"/>
-            </form>
-            <form action="">
-                <p> Seu telefone: 
-                    <input type="text" name="telephone"/>
-                    <input type="submit" name="subscribe" value="enviar"/>
-                </p>
-            </form>
+            <fieldset>
+                <legend> Dúvidas? Deixe seus dados que entrarei em contato</legend>
+                <form action=""> 
+                    <p> E-mail:
+                        <input type="email" name="username"/>
+                    </p>
+                    <p> Nome:
+                        <input type="text" name="name"/>
+                    <p> Telefone: 
+                        <input type="number" name="telephone"/> 
+                    </p>
+                    <input class="inputc" type="submit" name="subscribe" value="Enviar"/>
+                </form>
+            </fieldset>
         </div>
     </div>
-    <footer>
+
         <div class="box-four">
-            <h4 id="botton"> Formas de contato: </h4>
-             <ul>
-                <li> <img src="img/logogmail.png" alt="MAIL" /> <a
-                                href="mailto:raquelgabi.nasci1815@hotmail.com">raquelgabi.nasci1815@hotmail.com</a></li>
-                <li> <img src="img/logoinsta.jpg" alt="Instagram" /> @raquel.gabrielly </li>
-                </ul>
+            <a href="https://api.whatsapp.com/send?phone=5584996223319" class="whatsapp" target="blank"> <img src="img/whatsapp.jpg" alt="icone do whatsapp" class="icone-img"/></a>
+            <a href="https://www.instagram.com/invites/contact/?i=35pfxqgfofgf&utm_content=7vyebhj" class="instagram" target="blank"> <img src="img/logoinsta.jpg" alt="icone do instagram" class="icone-img"/></a>
+            <a href="mailto:raquelgabi.nasci1815@hotmail.com" class="email" target="blank"> <img src="img/logogmail.png" alt="logo do gmail" class="icone-img"/></a>
+            <a href="https://github.com/Gabiss15" class="github" target="blank"> <img src="img/github.png" alt="logo do github" class="icone-img"/> </a>
         </div>
-    </footer>
 </body>
 </html>

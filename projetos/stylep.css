@@ -1,0 +1,101 @@
+body{
+    display: flexbox;
+    background: url('img/imagemcpp.jpg') center / cover no-repeat;
+    margin: 10px;
+}
+
+.first-box{
+    display: flexbox;
+    background-color: rgb(112, 80, 145);
+    opacity: 0.9;
+    display: block;
+    height: 1000px;
+    width: auto;
+}
+
+.secound-box h1{
+    display: flexbox;
+    font-size: 56px;
+    font-family: monospace;
+    color: rgb(36, 2, 36);
+    text-align: center;
+    padding: 5px ;
+}
+
+.secound-box h3{
+    display: flexbox;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: -1px;
+}
+
+.secound-box a{
+    color: black;
+    text-decoration: none;
+}
+
+.secound-box a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.box-card{
+    display: flex;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    background: linear-gradient(35deg, rgb(36, 2, 36), rgb(52, 10, 92));
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 black;
+}
+
+.box-card-li h2{
+    display: flexbox;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(228, 216, 238);
+    text-align: center;
+    padding: 8px;
+}
+
+.box-card-li img{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin-left:30px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 0 white;
+}
+
+.box-card-li p{
+    background-color: white;
+    display: flex;
+    font-family: monospace;
+    font-size: medium;
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box-card-li button{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 black;
+}
+
+.box-card-li button:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 0 ;
+    color: cornsilk;
+}
+
+
+

@@ -1,0 +1,273 @@
+@keyframes secoundAnim {
+    0%{
+           background-color:rgb(68, 45, 90);
+           font-size:20px;
+           padding: 10px;
+           font-weight: normal;
+    }
+
+    50%{
+        background-color: rgb(60, 19, 99);
+        font-size: 25px;
+        padding: 15px;
+        font-weight: bolder;
+    }
+
+    75%{
+        background-color:rgb(38, 6, 68) ;
+        font-size: 30px;
+        pad: 18px;
+        font-weight: bolder;
+    }
+
+    100%{
+        background-color: rgb(33, 6, 59);
+        font-size: 35px;
+        padding: 20px;
+        font-weight: bolder;
+    }
+}
+
+@keyframes bthreeAnim {
+    0%{
+        background-color: rgb(187, 185, 185);
+        width: 250px;
+        height: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+    25%{
+        background-color: rgb(175, 174, 174) ;
+        width: 500px;
+        height: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 20px;
+    }
+    50%{
+        background-color: rgb(148, 147, 147);
+        width: 750px;
+        height: 75px;
+        font-family:'Courier New', Courier, monospace ;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 30px;
+    }
+
+    75%{
+        background-color: gray;
+        width: 1000px;
+        height: 100px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px;
+    }
+    100%{
+        background-color: gray;
+        width: 1000px;
+        height: 100px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 40px;
+    }
+}
+
+body{
+    background: url('img/imagemcpp.jpg') center / cover no-repeat;
+    margin: 10px;
+}
+.first-box{
+    background-color: rgb(112, 80, 145);
+    opacity: 0.9;
+    display: block;
+    height: 1000px;
+    width: auto;
+}
+
+.secound-box h1{
+    font-size: 56px;
+    font-family: monospace;
+    color: rgb(36, 2, 36);
+    text-align: center;
+    padding: 5px ;
+}
+header{
+    display: flex;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: right;
+    margin-left: 90%;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: aliceblue;
+}
+.secound-box img{
+    width: 159px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    vertical-align:text-top;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0 rgb(6, 29, 36);
+}
+.secound-box p{
+    background-color:rgb(33, 6, 59) ;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(228, 216, 238);
+    padding: 20px;
+    transition: all 0.5s ease-out;
+}
+.secound-box p{
+    animation: secoundAnim 1s forwards;
+}
+.box-three{
+    background-color: grey ;
+    width: 1000px;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: right;
+    box-shadow: 6px 6px 0 black;
+    padding: 40px;
+    transition: all 0.5s ease-out;
+}
+
+.box-three{
+    animation: bthreeAnim 0.5s forwards;
+}
+
+.box-form{
+    background-color: rgb(151, 14, 151);
+    font-family:monospace;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+}
+.box-form p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.inputc{
+    margin-left: 200px;
+}
+.box-form legend{
+    background-color: gray;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.box-four{
+    background-color: white;
+    width: auto;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.box-four h4{
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+
+.box-four ul{
+    font-size: medium;
+    text-align: justify;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box-four ul img{
+    width: 30px;
+    height: 25px;
+    text-align: center;
+}
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 25px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+a:hover{
+    box-shadow: 0 0 0;
+}
+.icone-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.instagram{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;  
+}
+
+.email{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 175px;
+    bottom: 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.github{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 250px;
+    bottom: 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+

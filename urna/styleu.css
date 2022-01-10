@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.first-box{
+    display: flexbox;
+    background-color: rgb(112, 80, 145);
+    opacity: 0.9;
+    display: block;
+    height: 1000px;
+    width: auto;
+}
+
+.secound-box h1{
+    display: flexbox;
+    font-size: 56px;
+    font-family: monospace;
+    color: rgb(36, 2, 36);
+    text-align: center;
+}
+
+.box-three{
+    background-color: rgb(114, 141, 199);
+    width: auto;
+    height: 500px;
+    margin-top: 90px;
+}
+
+.box-three h1{
+    display: flexbox;
+    font-size: 32px;
+    font-family: monospace;
+    color: rgb(36, 2, 36);
+    text-align: center;
+}
+
+.box-three img{
+    display: block;
+    margin: 0px auto;
+    width: 600px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.box-three figcaption{
+    font-size: 20px ;
+    font-family: monospace;
+    text-align: center;
+}
+
+.box-three button{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 30px;
+    width: 100px;
+    height: 37px;
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 black;
+}
+
+.box-three button:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 0 ;
+    color: cornsilk;
+}
